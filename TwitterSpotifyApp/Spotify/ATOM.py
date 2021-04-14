@@ -13,11 +13,12 @@ from io import BytesIO
 import requests
 
 #Your app's Client Id and Client Secret
-cid = '0f4a9e39a958421b8650f7a9142baefd'
-secret = 'd67ebb6b783e447c89d53175e8116752'
+#Found on Spotify
+cid = ''
+secret = ''
 
 #Your username on Spotify
-username = "Jahsias"
+username = ""
 
 #Can be any url
 scope = "user-read-currently-playing"
