@@ -6,6 +6,7 @@
 Uses the Spotify, Genius, and Twitter API to find the song you are currently listening to and Tweets out the song name, description about the song, and the cover art.
 Uses python to get spotify and genius data every 5 seconds. The JS file then uses this info to post a tweet. <br>
 
+![exampletweet](https://user-images.githubusercontent.com/50382113/127240133-d89bd1fd-a278-4852-95c1-f8ea598be296.PNG)
 
 ## Running the software
 
