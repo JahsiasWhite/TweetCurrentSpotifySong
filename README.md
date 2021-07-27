@@ -33,7 +33,7 @@ For Spotify,
 * Enter your spotify username ``username = "John"``
 
 For Twitter,
-1. Navigate to index.js in TweetCurrentSpotifySong/TwitterSpotifyApp/Twitter
+1. Navigate to index.js in ../TweetCurrentSpotifySong/TwitterSpotifyApp/Twitter
 
 2. Go to 
 ``https://developer.twitter.com/en/portal/projects-and-apps``
@@ -51,7 +51,7 @@ For Twitter,
 * Copy Access Token to access_token_secret
 
 ### Run it
-1. Go to TweetCurrentSpotifySong/TwitterSpotifyApp/Spotify
+1. Go to ../TweetCurrentSpotifySong/TwitterSpotifyApp/Spotify
 
 2. Type
 ``ATOM.py``
