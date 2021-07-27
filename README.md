@@ -6,6 +6,7 @@
 Uses the Spotify, Genius, and Twitter API to find the song you are currently listening to and Tweets out the song name, description about the song, and the cover art.
 Uses python to get spotify and genius data every 5 seconds. The JS file then uses this info to post a tweet. <br>
 
+![exampletweet](https://user-images.githubusercontent.com/50382113/127240133-d89bd1fd-a278-4852-95c1-f8ea598be296.PNG)
 
 ## Running the software
 
@@ -33,7 +34,7 @@ For Spotify,
 * Enter your spotify username ``username = "John"``
 
 For Twitter,
-1. Navigate to index.js in TweetCurrentSpotifySong/TwitterSpotifyApp/Twitter
+1. Navigate to index.js in ../TweetCurrentSpotifySong/TwitterSpotifyApp/Twitter
 
 2. Go to 
 ``https://developer.twitter.com/en/portal/projects-and-apps``
@@ -51,7 +52,11 @@ For Twitter,
 * Copy Access Token to access_token_secret
 
 ### Run it
-1. Go to TweetCurrentSpotifySong/TwitterSpotifyApp/Spotify
+1. Go to ../TweetCurrentSpotifySong/TwitterSpotifyApp/Spotify
 
 2. Type
 ``ATOM.py``
+
+* If Spotify credentials weren't provided, they will be asked to be entered before the program continues. 
+* If the wrong Spotify credentials were entered a new tab will open on your web browser saying which credential was wrongly entered. The program will also be stuck and has to be restarted if this happens
+
