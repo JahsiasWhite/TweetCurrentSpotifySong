@@ -56,6 +56,6 @@ For Twitter,
 2. Type
 ``ATOM.py``
 
-If Spotify credentials weren't provided, they will be asked to be entered before the program continues. 
-If the wrong Spotify credentials were entered a new tab will open on your webrowser saying which credential was wrongly entered. The program will also be stuck and has to be restarted if this happens
+* If Spotify credentials weren't provided, they will be asked to be entered before the program continues. 
+* If the wrong Spotify credentials were entered a new tab will open on your web browser saying which credential was wrongly entered. The program will also be stuck and has to be restarted if this happens
 
