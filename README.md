@@ -9,14 +9,14 @@ Uses python to get spotify and genius data every 5 seconds. The JS file then use
 
 ## Running the software
 
-# Clone Repository
-``https://github.com/JahsiasWhite/TweetCurrentSpotifySong.git``
+### Clone Repository
+``git clone https://github.com/JahsiasWhite/TweetCurrentSpotifySong.git``
 
-# Install the needed packages
+### Install the needed packages
 The requirements are listed in requirements.txt. Using pip, you can install all packages with
 ``pip3 install -r /path/to/requirements.txt``
 
-# Set Parameters
+### Set Parameters
 You need both authorization from Spotify and Twitter
 
 For Spotify,
@@ -28,13 +28,9 @@ For Spotify,
 3. Login and create a new app
 
 4. Copy and paste parameters into ATOM.py
-* Copy "Client Id" to cid
-* Copy "Client Secret" to secret
-* Enter your spotify username
-Ex
-``cid = '0f4a9e39a947421b8650f7a0842baefd'
-secret = 'd67ebb6b783e447c89d53175e8173851'
-username = "John"``
+* Copy "Client Id" to cid         ``cid = '0f4a9e39a947421b8650f7a0842baefd'``
+* Copy "Client Secret" to secret ``secret = 'd67ebb6b783e447c89d53175e8173851'``
+* Enter your spotify username ``username = "John"``
 
 For Twitter,
 1. Navigate to index.js in TweetCurrentSpotifySong/TwitterSpotifyApp/Twitter
@@ -54,7 +50,7 @@ For Twitter,
 * Copy Access Token to access_token
 * Copy Access Token to access_token_secret
 
-# Run it
+### Run it
 1. Go to TweetCurrentSpotifySong/TwitterSpotifyApp/Spotify
 
 2. Type
